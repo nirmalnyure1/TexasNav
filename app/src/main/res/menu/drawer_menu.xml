@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item android:id="@+id/home"
+            android:title="Home"
+            android:icon="@drawable/ic_home_black_24dp"/>
+
+        <item android:id="@+id/account"
+            android:title="Account"
+            android:icon="@drawable/ic_account_"/>
+
+
+        <item android:id="@+id/attendence"
+            android:title="Attendence"
+            android:icon="@drawable/ic_attendence"/>
+
+        <item android:id="@+id/grade"
+            android:title="Grade"
+            android:icon="@drawable/ic_grade"/>
+
+        <item android:id="@+id/calender"
+            android:title="Calender"
+            android:icon="@drawable/ic_calendar"/>
+
+
+        <item android:id="@+id/noticeboard"
+            android:title="Notice Board"/>
+
+        <item
+            android:id="@+id/event"
+            android:title="Event"
+            android:icon="@drawable/ic_event_24px"/>
+    </group>
+    <item android:title="">
+        <menu>
+            <item android:id="@+id/settings"
+                android:title="Setting"
+                android:icon="@drawable/ic_settings"/>
+            <item android:id="@+id/logout"
+                android:title="Logout"
+                android:icon="@drawable/ic_signs"/>
+
+
+        </menu>
+    </item>
+</menu>
